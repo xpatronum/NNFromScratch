@@ -1,4 +1,4 @@
-[[https://github.com/thenewera-ru/NeuralNetworkFromScratch/tree/master/images/1.JPG|alt=Introduction]]
+![Page_1](./images/1.JPG)
 
 ### Архитектура и функция ошибки
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
