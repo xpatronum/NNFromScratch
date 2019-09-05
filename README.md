@@ -3,7 +3,7 @@
 ### Архитектура и функция ошибки
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
 
-![Page_2](./images/2.JPG)
+![Page_2](./images/Page_2.JPG)
 
 Каждый слой (`FCLayer` или `ActivationLayer`) принимает входные данные - `X`, и выдает выход - `Y`.
 ![forard_propagation](./images/forward_propagation.png)
