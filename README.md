@@ -1,4 +1,4 @@
-![Introduction](./images/Page_1.JPG)
+![Introduction](./images/1.JPG)
 
 ### Архитектура и функция ошибки
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
