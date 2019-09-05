@@ -1,4 +1,4 @@
-![Introduction](https://drive.google.com/open?id=171w5X4ZeVjrV8H7PEkhxr2lGP0ZQ01az)
+[[https://github.com/thenewera-ru/NeuralNetworkFromScratch/tree/master/images/1.JPG|alt=Introduction]]
 
 ### Архитектура и функция ошибки
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
