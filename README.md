@@ -30,4 +30,4 @@
 
 ### Применим теорему о дифференцированиии сложной функции...
 
-![Page_4](https://drive.google.com/open?id=1Y_2bv9PKah87BBg94lDjafW6aSUpcFD_)
+![Page_4](./images/4.JPG)
