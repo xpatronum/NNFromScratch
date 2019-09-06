@@ -30,4 +30,4 @@
 
 ### Применим теорему о дифференцированиии сложной функции...
 
-![Page_4](./images/ChainRule.JPG)
+![Page_4](./images/ChainRuleApplication.JPG)
