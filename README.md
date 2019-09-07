@@ -1,17 +1,24 @@
 ### *Введение*
 
-![Page_1](./images/1.JPG)
+![Page_1](./images/Page_1_Intro.JPG)
 
 ### *Архитектура и функция ошибки*
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
 
-![Page_2](./images/Page_2.JPG)
+![Page_2](./images/Page_2_bestVersion.JPG)
 
 Каждый слой (`FCLayer` или `ActivationLayer`) принимает входные данные - `X`, и выдает выход - `Y`.
 ![forard_propagation](./images/forward_propagation.png)
 Обратите внимание, что выход каждого слоя - является входом для другого, поэтому в целом процесс `Y = forward_propagation(X)`
 выглядит следующим образом
 ![sequential_forward_propagation](./images/sequential_forward_propagation.png)
+
+В коде это выглядит следующим образом. 
+Для `FCLayer`
+![FCLayer_code_fp](./images/FCLayer_forward_propagation.png)
+
+Для `ActivationLayer`
+![ActivationLayer_code_fp](./images/ActivationLayer_forward_propagation.png)
 
 
 ### *MSE или среднеквадратичное отклонение*
