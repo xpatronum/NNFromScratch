@@ -18,12 +18,14 @@ class FCLayer(Parent):
 
     def backward_propagation(self, out_error, rate):
         '''
-        :param out_error: ∇L = ∇L(Y)
+        :param out_error: ∇L = ∇L(Y) = ∂L/∂Y
         :param rate: learning rate in gradient descent
-        :return: ∇L = ∇L(X)
+        :return: ∇L = ∇L(X) = ∂L/∂X
         '''
         in_error = np.dot(out_error, self.weights.T)
         weights_error = np.dot(self.input.T, out_error)
+
+        # Note, that ∂L/∂B = ∂L/∂Y = out_error. See the equations.
 
         self.weights -= rate * weights_error
         self.bias -= rate * out_error

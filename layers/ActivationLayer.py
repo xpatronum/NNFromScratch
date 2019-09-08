@@ -18,7 +18,7 @@ class ActivationLayer(Parent):
     def backward_propagation(self, out_error, rate):
         '''
 
-        :param out_error:
+        :param out_error: ∂L/∂Y
         :param rate: learning_rate
         :return:
         '''
