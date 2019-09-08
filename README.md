@@ -1,3 +1,5 @@
+![logo](./images/logo.png)
+
 ### *Введение*
 
 ![Page_1](./images/Page_1_Intro.JPG)
@@ -55,3 +57,11 @@
 
 Реализация в виде кода представленана ниже.
 ![FCLayer_code_bp](./images/FCLayer_code_bp.png)
+
+### *Вывод формул обратного распространения ошибки для слоя `ActivationLayer`*
+
+![ActivationLayer_derivation_bp_1](./images/ActivationLayer_bp_derivation_1.JPG)
+
+*Продолжение вывода на следующей странице*
+
+![ActivationLayer_derivation_bp_2](./images/ActivationLayer_bp_derivation_2.JPG)
