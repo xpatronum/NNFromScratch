@@ -20,6 +20,10 @@ class ActivationLayer(Parent):
 
         :param out_error: ∂L/∂Y
         :param rate: learning_rate
-        :return:
+        :return: ∂L/∂X
         '''
         return self.activation_prime(self.input) * out_error
+
+
+
+
