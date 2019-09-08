@@ -52,3 +52,6 @@
 
 Таким образом получаем итоговые формулые для реализации `backward_propagation()` слоя `FCLayer`
 ![FCLayer_end_bp](./images/FCLayer_bp_end.png)
+
+Реализация в виде кода представленана ниже.
+![FCLayer_code_bp](./images/FCLayer_code_bp.png)
