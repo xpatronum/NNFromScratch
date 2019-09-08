@@ -11,8 +11,8 @@ class Network:
 
     def use(self, loss, loss_prime):
         '''
-        :param loss: L = L(Y), e.g. mse
-        :param loss_prime:  ∇L = ∇L(Y)
+        :param loss: L = L(Y), e.g. MSE
+        :param loss_prime:  ∇L = ∇L(Y), e.g ∇MSE(Y)
         :return: void
         '''
         self.loss = loss

@@ -41,3 +41,14 @@
 ### *Применим теорему о дифференцированиии сложной функции...*
 
 ![Page_4](./images/ChainRuleWithGraphics.JPG)
+
+### *Вывод формул обратного распространения ошибки для слоя `FCLayer`*
+
+![FCLayer_derivation_bp_1](./images/FCLayer_backward_propagation_derivation_1.JPG)
+
+*Продолжение нижу*
+
+![FCLayer_derivation_bp_2](./images/FCLayer_backward_propagation_derivation_2.JPG)
+
+Таким образом получаем итоговые формулые для реализации `backward_propagation()` слоя `FCLayer`
+![FCLayer_end_bp](./images/FCLayer_bp_end.png)
