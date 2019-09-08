@@ -46,7 +46,7 @@
 
 ![FCLayer_derivation_bp_1](./images/FCLayer_backward_propagation_derivation_1.JPG)
 
-*Продолжение нижу*
+*Продолжение вывода на следующей странице*
 
 ![FCLayer_derivation_bp_2](./images/FCLayer_backward_propagation_derivation_2.JPG)
 
