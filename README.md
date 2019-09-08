@@ -14,6 +14,7 @@
 ![sequential_forward_propagation](./images/sequential_forward_propagation.png)
 
 В коде это выглядит следующим образом. 
+
 Для `FCLayer`
 ![FCLayer_code_fp](./images/FCLayer_forward_propagation.png)
 
