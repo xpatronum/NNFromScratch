@@ -19,7 +19,17 @@ class Network:
         self.loss_prime = loss_prime
 
     def predict(self, data):
-        pass
+        samples = len(data)
+        result = []
+
+        # For every training vector data x_i do:
+        for i in range(samples):
+            # Forward propagation
+            output = data[i]
+            for layer in self.layers:
+                output = layer.forward_propagation(output)
+            result.append(output)
+        return result
 
     def fit(self, x_train, y_train, epochs, alpha):
         '''
@@ -29,4 +39,25 @@ class Network:
         :param alpha: weights_(k+1) = weights(k) - alpha * ∇L(weights(k))
         :return:
         '''
-        pass
+        samples = len(x_train)
+
+        # For every training cycle -> forward() -> forward() -> Loss() <- backward() <- backward() ...
+        for i in range(epochs):
+            error = 0
+            for k in range(samples):
+                # Forward propagation
+                output = x_train[k]
+                for l in self.layers:
+                    # Output of the previous layer => input to the current layer @l
+                    output = l.forward_propagation(output)
+                # Total error after current x_k has passed training cycle.
+                error += self.loss(y_train[k], output)
+
+                # Backward propagation
+                gradient = self.loss_prime(y_train[k], output)
+                for l in reversed(self.layers):
+                    gradient = l.backward_propagation(gradient, alpha)
+
+            # What is the total average error after one epoch ?
+            error /= samples
+            print('On epoch ' + str(i + 1) + ' an average error = ' + str(error))
