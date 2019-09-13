@@ -5,6 +5,9 @@
 ![Page_1_1](./images/_Page_1_1.png)
 ![Page_1_2](./images/_Page_1_2.png)
 
+### *Реализация метода `Y=forward_propagation(X)` для FullyConnected слоя*
+![_FCLayer_forward_propagation](./images/_FCLayer_forwardPropagation.png)
+
 ### *Архитектура и функция ошибки*
 Ниже представлена архитектура слоев и уравнение `(5)` для вычисления выходного слоя `FullyConnectedLayer`
 
