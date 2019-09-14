@@ -69,3 +69,6 @@ _Реализация в виде кода представленана ниже
 
 _Реализация в виде кода представлена ниже_
 ![ActivationLayer_code_bp](./images/ActivationLayer_code_bp.png)
+
+
+The end.
