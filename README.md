@@ -1,3 +1,5 @@
+![Logo](./images/logo.png)
+
 ![Page_1_1](./images/_Page_1_1.png)
 ![Page_1_2](./images/_Page_1_2.png)
 
@@ -61,7 +63,7 @@ _Реализация в виде кода представлена ниже_
 ![ActivationLayer_code_bp](./images/ActivationLayer_code_bp.png)
 
 ![TheEnd](./images/TheEnd.png)
-####*Связаться со мной:*
+*Связаться со мной:*
 * [Vk](https://vk.com/mrtwistermrfreeman)
 * [Twitter](https://twitter.com/IgorTarlinskii)
 * [Facebook](https://www.facebook.com/igor.tarlinskii)
