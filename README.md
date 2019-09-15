@@ -3,10 +3,8 @@
 ![Page_1_1](./images/_Page_1_1.png)
 ![Page_1_2](./images/_Page_1_2.png)
 
-#### *`Y=forward_propagation(X)` для FullyConnected слоя*
 ![_FCLayer_forward_propagation](./images/__FCLayer_forward_propagation.png)
 
-#### *Архитектура слоев*
 
 ![_ArchitectureLayer](./images/_ArchiterctureLayer.png)
 
