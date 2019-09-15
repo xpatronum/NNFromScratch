@@ -67,4 +67,4 @@ _Реализация в виде кода представлена ниже_
 * [Vk](https://vk.com/mrtwistermrfreeman)
 * [Twitter](https://twitter.com/IgorTarlinskii)
 * [Facebook](https://www.facebook.com/igor.tarlinskii)
-* [Telegram](@MrTwisterMrFreeman)
+* [Telegram](https://t.me/couldbeanybody)
