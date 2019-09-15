@@ -59,3 +59,10 @@ _Реализация в виде кода представленана ниже
 
 _Реализация в виде кода представлена ниже_
 ![ActivationLayer_code_bp](./images/ActivationLayer_code_bp.png)
+
+![TheEnd](./images/TheEnd.png)
+####*Связаться со мной:*
+* [Vk](https://vk.com/mrtwistermrfreeman)
+* [Twitter](https://twitter.com/IgorTarlinskii)
+* [Facebook](https://www.facebook.com/igor.tarlinskii)
+* [Telegram](@MrTwisterMrFreeman)
